@@ -54,6 +54,8 @@ function onSubmit(e) {
   el.form.reset();
   localStorage.removeItem(FORM_STATE_KEY);
 
+ console.log(newFormValues)
+
   newFormValues.email = '';
   newFormValues.message = '';
 }
